@@ -2,8 +2,8 @@
 
 CPS 843 Computer Vision, Final Project (Fall 2026)
 
-**Authors:** Riyad [Last Name] and [Partner Name]
-**Group #:** [fill in]
+**Authors:** Riya Dave and Jannis Saini
+
 
 ## Overview
 

@@ -1,0 +1,13 @@
+{
+  "model": "HOG + LinearSVC",
+  "img_size": 64,
+  "train_fraction": 1.0,
+  "C": 1.0,
+  "feature_dim": 1764,
+  "val_acc": 0.9744744744744744,
+  "test_acc": 0.9063341250989707,
+  "test_macro_f1": 0.8942865455864734,
+  "feature_time_s": 486.23503494262695,
+  "train_time_s": 122.74028205871582,
+  "inference_ms_per_image_(classifier_only)": 0.02234218050729445
+}

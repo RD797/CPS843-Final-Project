@@ -42,3 +42,14 @@ def count_parameters(model):
     total = sum(p.numel() for p in model.parameters())
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
     return total, trainable
+
+
+def get_mobilenet_v3_small(num_classes=43, freeze_backbone=False, pretrained=True):
+    """Lightweight pretrained model built for low-power hardware."""
+    m = models.mobilenet_v3_small(
+        weights=models.MobileNet_V3_Small_Weights.DEFAULT if pretrained else None)
+    if freeze_backbone:
+        for p in m.parameters():
+            p.requires_grad = False
+    m.classifier[3] = nn.Linear(m.classifier[3].in_features, num_classes)
+    return m

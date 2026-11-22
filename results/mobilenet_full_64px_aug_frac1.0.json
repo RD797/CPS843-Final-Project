@@ -1,0 +1,40 @@
+{
+  "model": "mobilenet",
+  "frozen_backbone": false,
+  "img_size": 64,
+  "epochs": 3,
+  "lr": 0.0003,
+  "optimizer": "adam",
+  "augmentation": true,
+  "train_fraction": 1.0,
+  "params_total": 1561931,
+  "params_trainable": 1561931,
+  "test_acc": 0.7927949326999209,
+  "test_macro_f1": 0.725383764408803,
+  "best_val_acc": 0.9427552552552553,
+  "total_train_time_s": 523.7425878047943,
+  "inference_ms_per_image": 9.025944345826113,
+  "device": "cpu",
+  "history": {
+    "train_loss": [
+      1.674499167157365,
+      0.5938332115744686,
+      0.3382355269861293
+    ],
+    "train_acc": [
+      0.5003753753753754,
+      0.7981888138138138,
+      0.8853697447447447
+    ],
+    "val_acc": [
+      0.7096471471471472,
+      0.87256006006006,
+      0.9427552552552553
+    ],
+    "epoch_time": [
+      320.05703353881836,
+      101.22123765945435,
+      102.29958152770996
+    ]
+  }
+}

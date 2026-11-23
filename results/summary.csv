@@ -1,7 +1,9 @@
 run,epochs,lr,aug,fraction,test_acc,macro_f1,trainable_params,train_time_s,ms_per_img
+baseline_full_32px_aug_frac1.0,10,0.001,True,1.0,0.7543,0.6957,99243,2443,10.77
 hog_svm_64_frac1.0,-,-,-,1.0,0.9063,0.8943,-,123,0.02
 mobilenet_full_64px_aug_frac1.0,3,0.0003,True,1.0,0.7928,0.7254,1561931,524,9.03
 resnet18_frozen_64px_aug_frac0.1,5,0.001,True,0.1,0.3703,0.2526,22059,188,4.71
 resnet18_frozen_64px_aug_frac0.5,5,0.001,True,0.5,0.4082,0.3058,22059,395,4.07
-resnet18_frozen_64px_aug_frac1.0,1,0.001,True,1.0,0.3741,0.2593,22059,364,11.49
+resnet18_frozen_64px_aug_frac1.0,5,0.001,True,1.0,0.4375,0.3363,22059,1191,17.4
 resnet18_frozen_64px_noaug_frac1.0,5,0.001,False,1.0,0.4974,0.4067,22059,699,11.36
+resnet18_full_64px_aug_frac1.0,3,0.0003,True,1.0,0.9676,0.9538,11198571,1483,12.3

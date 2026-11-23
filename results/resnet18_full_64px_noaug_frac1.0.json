@@ -1,0 +1,40 @@
+{
+  "model": "resnet18",
+  "frozen_backbone": false,
+  "img_size": 64,
+  "epochs": 3,
+  "lr": 0.0003,
+  "optimizer": "adam",
+  "augmentation": false,
+  "train_fraction": 1.0,
+  "params_total": 11198571,
+  "params_trainable": 11198571,
+  "test_acc": 0.9466349960411719,
+  "test_macro_f1": 0.9103805421182353,
+  "best_val_acc": 0.9911786786786787,
+  "total_train_time_s": 1457.1643159389496,
+  "inference_ms_per_image": 16.857792815799666,
+  "device": "cpu",
+  "history": {
+    "train_loss": [
+      0.3172207798252257,
+      0.0414404082136486,
+      0.0170703682897811
+    ],
+    "train_acc": [
+      0.9147428678678678,
+      0.9893487237237237,
+      0.994603978978979
+    ],
+    "val_acc": [
+      0.9857357357357357,
+      0.9866741741741741,
+      0.9911786786786787
+    ],
+    "epoch_time": [
+      596.2453947067261,
+      415.48625111579895,
+      444.2297685146332
+    ]
+  }
+}

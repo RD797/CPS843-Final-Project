@@ -1,0 +1,44 @@
+class_id,name,precision,recall,f1,support
+0,Speed limit 20,0.0,0.0,0.0,60
+1,Speed limit 30,0.5427,0.3444,0.4214,720
+2,Speed limit 50,0.3154,0.46,0.3742,750
+3,Speed limit 60,0.1713,0.1644,0.1678,450
+4,Speed limit 70,0.3328,0.3152,0.3237,660
+5,Speed limit 80,0.2663,0.3365,0.2973,630
+6,End of speed limit 80,0.6034,0.4667,0.5263,150
+7,Speed limit 100,0.2516,0.2667,0.2589,450
+8,Speed limit 120,0.1986,0.1956,0.1971,450
+9,No passing,0.5833,0.4083,0.4804,480
+10,No passing (vehicles >3.5t),0.4927,0.7197,0.585,660
+11,Right-of-way at intersection,0.3211,0.1881,0.2372,420
+12,Priority road,0.743,0.8507,0.7932,690
+13,Yield,0.8515,0.8361,0.8437,720
+14,Stop,0.6646,0.8,0.7261,270
+15,No vehicles,0.9081,0.8,0.8506,210
+16,Vehicles >3.5t prohibited,0.6828,0.66,0.6712,150
+17,No entry,0.7611,0.6639,0.7092,360
+18,General caution,0.3228,0.4179,0.3642,390
+19,Curve left,0.0825,0.1333,0.1019,60
+20,Curve right,0.1053,0.0222,0.0367,90
+21,Double curve,0.1092,0.2111,0.1439,90
+22,Bumpy road,0.1547,0.2333,0.186,120
+23,Slippery road,0.1786,0.1,0.1282,150
+24,Road narrows (right),0.0,0.0,0.0,90
+25,Road work,0.4286,0.4812,0.4534,480
+26,Traffic signals,0.5469,0.1944,0.2869,180
+27,Pedestrians,0.1333,0.0667,0.0889,60
+28,Children crossing,0.1742,0.18,0.177,150
+29,Bicycles crossing,0.181,0.2333,0.2039,90
+30,Ice/snow,0.1429,0.0133,0.0244,150
+31,Wild animals crossing,0.3566,0.5296,0.4262,270
+32,End of all limits,0.7209,0.5167,0.6019,60
+33,Turn right ahead,0.25,0.2286,0.2388,210
+34,Turn left ahead,0.2188,0.0583,0.0921,120
+35,Ahead only,0.4128,0.2487,0.3104,390
+36,Straight or right,0.3025,0.4083,0.3475,120
+37,Straight or left,0.1724,0.0833,0.1124,60
+38,Keep right,0.5382,0.7043,0.6102,690
+39,Keep left,0.2708,0.1444,0.1884,90
+40,Roundabout,0.5,0.4444,0.4706,90
+41,End of no passing,0.1579,0.05,0.0759,60
+42,End no passing (>3.5t),0.451,0.2556,0.3262,90

@@ -1,0 +1,16 @@
+true_class,predicted_class,count
+Speed limit 50,Speed limit 80,206
+Speed limit 100,Speed limit 80,153
+Speed limit 60,Speed limit 80,150
+Speed limit 120,Speed limit 80,145
+Speed limit 70,Speed limit 80,114
+Speed limit 30,Speed limit 80,82
+No passing (vehicles >3.5t),Speed limit 80,74
+Ice/snow,Children crossing,74
+Keep right,Turn left ahead,72
+Speed limit 100,Speed limit 120,70
+Speed limit 50,Speed limit 30,45
+No passing,Speed limit 80,40
+Speed limit 50,Speed limit 60,39
+No passing,No passing (vehicles >3.5t),38
+General caution,Traffic signals,38

@@ -1,0 +1,29 @@
+{
+  "Scratch CNN": {
+    "img_size": 32,
+    "params": 99243,
+    "median_ms": 0.9963499942386989,
+    "mean_ms": 1.0365533330817318,
+    "std_ms": 0.1991928038668161
+  },
+  "ResNet-18": {
+    "img_size": 64,
+    "params": 11198571,
+    "median_ms": 10.447000000567641,
+    "mean_ms": 11.325815999904686,
+    "std_ms": 5.484079289752261
+  },
+  "MobileNetV3-Small": {
+    "img_size": 64,
+    "params": 1561931,
+    "median_ms": 9.625800001231255,
+    "mean_ms": 9.494378999758434,
+    "std_ms": 1.5416441275743822
+  },
+  "HOG features (SVM step excluded)": {
+    "img_size": 64,
+    "median_ms": 1.4495499999611638,
+    "mean_ms": 1.6324760001104248,
+    "std_ms": 0.4268362694976422
+  }
+}

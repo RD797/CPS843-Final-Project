@@ -1,0 +1,16 @@
+true_class,predicted_class,count
+Speed limit 30,Speed limit 50,255
+Speed limit 120,Speed limit 80,127
+Speed limit 70,Speed limit 50,118
+Ahead only,Keep right,116
+No passing,No passing (vehicles >3.5t),110
+Speed limit 80,Speed limit 50,98
+Speed limit 60,Speed limit 80,91
+Speed limit 50,Speed limit 60,91
+Right-of-way at intersection,Road work,89
+Speed limit 100,Speed limit 80,81
+Speed limit 50,Speed limit 70,80
+Speed limit 80,Speed limit 120,79
+Keep left,Keep right,71
+Road work,General caution,70
+Speed limit 70,Speed limit 120,70

@@ -1,0 +1,16 @@
+true_class,predicted_class,count
+No vehicles,Speed limit 60,30
+Double curve,Right-of-way at intersection,22
+Ice/snow,Bicycles crossing,18
+Speed limit 100,Speed limit 120,18
+General caution,Road work,17
+End of no passing,No passing,16
+Speed limit 70,Speed limit 30,15
+No entry,Speed limit 30,15
+Ice/snow,Right-of-way at intersection,13
+Speed limit 50,Speed limit 30,13
+Children crossing,Bicycles crossing,13
+General caution,Pedestrians,12
+No entry,No passing,10
+Ice/snow,Road work,10
+Speed limit 80,Speed limit 60,9
